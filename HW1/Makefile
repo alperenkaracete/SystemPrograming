@@ -10,4 +10,4 @@ main.o: main.c
 	$(CC) $(CFLAGS) main.c
 
 clean:
-	rm -rf *.o a.out
+	rm -rf *.o a.out *.log *.txt
